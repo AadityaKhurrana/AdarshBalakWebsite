@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Open+Sans:ital,wght@0,300;1,400&display=swap');
+body {
+    font-family: sans-serif;
+    margin: 0px 0.3rem;
+}
+
+:root {
+    --primary-color: #FCD34D;
+    --grey--color: #E5E7EB;
+}
+
+
+/* navigation bar */
+
+.navigation {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.navigation-h2 {
+    color: #374151;
+    text-align: left;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0rem 2rem;
+    color: #374151;
+    font-size: 1.3rem;
+}
+
+.link:hover {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ol {
+    text-align: right;
+}
+
+.list-item {
+    display: inline;
+}
+
+.active {
+    text-decoration: underline;
+    font-weight: bold;
+    border: 1px solid var(--grey--color);
+    background-color: var(--grey--color);
+    padding: 0.7rem;
+    border-radius: 1rem;
+}
+
+
+/* header */
+
+.hero {
+    padding: 0.5rem;
+}
+
+.hero .hero-img {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.hero-h1 {
+    text-align: center;
+    color: #4B5563;
+}
+
+.hero-span {
+    color: var(--primary-color);
+}
+
+
+/* 
+section1 */
+
+.sec1 {
+    background-color: var(--grey--color);
+}
+
+.sec1-div {
+    padding: 1rem;
+    margin: auto;
+    max-width: 600px;
+}
+
+.sec1-h2 {
+    text-align: center;
+}
+
+.sec1-p {
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+
+/* section1 now repeat*/
+
+.sec2-div {
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+}
+
+.sec2-h2 {
+    text-align: center;
+}
+
+.sec2-p {}
+
+.sec-link {
+    font-size: 1rem;
+    display: block;
+    max-width: 6rem;
+    margin: 1rem 1rem 1rem 0rem;
+    text-decoration: none;
+    color: white;
+    background-color: #374151;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.sec-link:hover {
+    max-width: 8rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sec-link2 {
+    display: block;
+    max-width: 6rem;
+    margin: 1rem 1rem 1rem 0rem;
+    text-decoration: none;
+    color: #374151;
+    border: 2px solid #374151;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.sec-link2:hover {
+    max-width: 8rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 0px;
+}
+
+.footer-h2 {
+    text-align: center;
+    color: #374151;
+}
