@@ -1,0 +1,35 @@
+.hero
+{
+    padding: 2rem;
+    padding-top: 5rem;
+}
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+.container-center {
+    width: auto;
+}
+.showcase-list {
+    /* padding: 2rem; */
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 3rem auto;
+}
+.container-center {
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
+.container {
+    padding: 0rem 1rem;
+}
+.link-primary {
+    max-width: 140px;
+    padding: 0.6rem 1.2rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    margin: 1rem auto;
+    border-radius: 2rem;
+}
